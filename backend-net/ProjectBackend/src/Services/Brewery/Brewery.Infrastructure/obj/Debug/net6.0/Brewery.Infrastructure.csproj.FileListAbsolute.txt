@@ -1,0 +1,17 @@
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\bin\Debug\net6.0\Brewery.Infrastructure.deps.json
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\bin\Debug\net6.0\Brewery.Infrastructure.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\bin\Debug\net6.0\Brewery.Infrastructure.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\bin\Debug\net6.0\Brewery.AppLogic.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\bin\Debug\net6.0\Brewery.Domain.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\bin\Debug\net6.0\Brewery.AppLogic.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\bin\Debug\net6.0\Brewery.Domain.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\obj\Debug\net6.0\Brewery.Infrastructure.csproj.AssemblyReference.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\obj\Debug\net6.0\Brewery.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\obj\Debug\net6.0\Brewery.Infrastructure.AssemblyInfoInputs.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\obj\Debug\net6.0\Brewery.Infrastructure.AssemblyInfo.cs
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\obj\Debug\net6.0\Brewery.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\obj\Debug\net6.0\Brewery.Infrastructure.csproj.CopyComplete
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\obj\Debug\net6.0\Brewery.Infrastructure.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\obj\Debug\net6.0\refint\Brewery.Infrastructure.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\obj\Debug\net6.0\Brewery.Infrastructure.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Infrastructure\obj\Debug\net6.0\ref\Brewery.Infrastructure.dll

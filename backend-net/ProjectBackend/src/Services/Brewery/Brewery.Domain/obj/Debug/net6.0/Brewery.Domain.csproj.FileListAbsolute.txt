@@ -1,0 +1,12 @@
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\bin\Debug\net6.0\Brewery.Domain.deps.json
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\bin\Debug\net6.0\Brewery.Domain.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\bin\Debug\net6.0\Brewery.Domain.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\obj\Debug\net6.0\Brewery.Domain.csproj.AssemblyReference.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\obj\Debug\net6.0\Brewery.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\obj\Debug\net6.0\Brewery.Domain.AssemblyInfoInputs.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\obj\Debug\net6.0\Brewery.Domain.AssemblyInfo.cs
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\obj\Debug\net6.0\Brewery.Domain.csproj.CoreCompileInputs.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\obj\Debug\net6.0\Brewery.Domain.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\obj\Debug\net6.0\refint\Brewery.Domain.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\obj\Debug\net6.0\Brewery.Domain.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.Domain\obj\Debug\net6.0\ref\Brewery.Domain.dll

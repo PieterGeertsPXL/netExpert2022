@@ -1,0 +1,15 @@
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\bin\Debug\net6.0\Review.AppLogic.deps.json
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\bin\Debug\net6.0\Review.AppLogic.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\bin\Debug\net6.0\Review.AppLogic.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\bin\Debug\net6.0\Review.Domain.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\bin\Debug\net6.0\Review.Domain.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\obj\Debug\net6.0\Review.AppLogic.csproj.AssemblyReference.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\obj\Debug\net6.0\Review.AppLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\obj\Debug\net6.0\Review.AppLogic.AssemblyInfoInputs.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\obj\Debug\net6.0\Review.AppLogic.AssemblyInfo.cs
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\obj\Debug\net6.0\Review.AppLogic.csproj.CoreCompileInputs.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\obj\Debug\net6.0\Review.AppLogic.csproj.CopyComplete
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\obj\Debug\net6.0\Review.AppLogic.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\obj\Debug\net6.0\refint\Review.AppLogic.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\obj\Debug\net6.0\Review.AppLogic.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.AppLogic\obj\Debug\net6.0\ref\Review.AppLogic.dll

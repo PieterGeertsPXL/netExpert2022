@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Brewery.AppLogic/1.0.0": {
+        "dependencies": {
+          "Brewery.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Brewery.AppLogic.dll": {}
+        }
+      },
+      "Brewery.Domain/1.0.0": {
+        "runtime": {
+          "Brewery.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Brewery.AppLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Brewery.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

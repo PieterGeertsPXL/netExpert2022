@@ -1,0 +1,188 @@
+name: dockercompose6477058663758760431
+services:
+  brewery.api:
+    build:
+      context: C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src
+      dockerfile: Services/Brewery/Brewery.API/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Brewery.API
+      target: base
+    container_name: Brewery.API
+    depends_on:
+      sqldata:
+        condition: service_started
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionString: Data Source=sqldata;Database=BackendProject.Brewery;User Id=sa;Password=Pass@word;TrustServerCertificate=True;
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      Urls__IdentityUrl: http://identity.ui
+    image: breweryapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/Brewery.API.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5000"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "5001"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.API
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\geertpi\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\geertpi\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\geertpi\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\geertpi\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src
+      target: /src
+      bind:
+        create_host_path: true
+  identity.ui:
+    build:
+      context: C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src
+      dockerfile: Services/Identity.UI/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Identity.UI
+      target: base
+    container_name: Identity.UI
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: identityui:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp3.1/Identity.UI.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "9000"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "9001"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Identity.UI
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\geertpi\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\geertpi\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\geertpi\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
+      target: /root/.nuget/fallbackpackages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\geertpi\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src
+      target: /src
+      bind:
+        create_host_path: true
+  sqldata:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Pass@word
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: kwops-sqldata
+      target: /var/opt/mssql
+      volume: {}
+networks:
+  default:
+    name: dockercompose6477058663758760431_default
+volumes:
+  kwops-sqldata:
+    name: dockercompose6477058663758760431_kwops-sqldata

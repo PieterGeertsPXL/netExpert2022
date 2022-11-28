@@ -1,0 +1,30 @@
+Brewery
+POST /beer/add -> Add a new beer
+  {
+    type: beer
+    
+  }
+DELETE /beer/{id} -> Delete a beer
+
+Reviewer
+
+GET /all/type -> Get all beers sorted by rating
+POST /review/{beerId}/add -> Add a review to a beer
+{
+  "RATING": "rating",
+  "Text":"text"
+}
+
+GET /review/{beerId}/all ->Get all reviews from a beer
+{
+Reviews: [
+            {
+              "RATING": "rating",
+               "Text":"text"
+            },
+            {
+              "RATING": "rating",
+               "Text":"text"
+            }
+        ]
+}

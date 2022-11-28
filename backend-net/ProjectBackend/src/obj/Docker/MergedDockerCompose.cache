@@ -1,0 +1,94 @@
+name: dockercompose6477058663758760431
+services:
+  brewery.api:
+    build:
+      context: C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src
+      dockerfile: Services/Brewery/Brewery.API/Dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionString: Data Source=sqldata;Database=BackendProject.Brewery;User Id=sa;Password=Pass@word;TrustServerCertificate=True;
+      Urls__IdentityUrl: http://identity.ui
+    image: breweryapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5000"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "5001"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\geertpi\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\geertpi\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  identity.ui:
+    build:
+      context: C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src
+      dockerfile: Services/Identity.UI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: identityui
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "9000"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "9001"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\geertpi\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\geertpi\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  sqldata:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Pass@word
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: kwops-sqldata
+      target: /var/opt/mssql
+      volume: {}
+networks:
+  default:
+    name: dockercompose6477058663758760431_default
+volumes:
+  kwops-sqldata:
+    name: dockercompose6477058663758760431_kwops-sqldata

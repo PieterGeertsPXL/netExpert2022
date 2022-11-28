@@ -1,0 +1,15 @@
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\bin\Debug\net6.0\Brewery.AppLogic.deps.json
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\bin\Debug\net6.0\Brewery.AppLogic.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\bin\Debug\net6.0\Brewery.AppLogic.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\bin\Debug\net6.0\Brewery.Domain.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\bin\Debug\net6.0\Brewery.Domain.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\obj\Debug\net6.0\Brewery.AppLogic.csproj.AssemblyReference.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\obj\Debug\net6.0\Brewery.AppLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\obj\Debug\net6.0\Brewery.AppLogic.AssemblyInfoInputs.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\obj\Debug\net6.0\Brewery.AppLogic.AssemblyInfo.cs
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\obj\Debug\net6.0\Brewery.AppLogic.csproj.CoreCompileInputs.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\obj\Debug\net6.0\Brewery.AppLogic.csproj.CopyComplete
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\obj\Debug\net6.0\Brewery.AppLogic.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\obj\Debug\net6.0\refint\Brewery.AppLogic.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\obj\Debug\net6.0\Brewery.AppLogic.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Brewery\Brewery.AppLogic\obj\Debug\net6.0\ref\Brewery.AppLogic.dll

@@ -1,0 +1,17 @@
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\bin\Debug\net6.0\Review.Infrastructure.deps.json
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\bin\Debug\net6.0\Review.Infrastructure.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\bin\Debug\net6.0\Review.Infrastructure.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\bin\Debug\net6.0\Review.AppLogic.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\bin\Debug\net6.0\Review.Domain.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\bin\Debug\net6.0\Review.AppLogic.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\bin\Debug\net6.0\Review.Domain.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\obj\Debug\net6.0\Review.Infrastructure.csproj.AssemblyReference.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\obj\Debug\net6.0\Review.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\obj\Debug\net6.0\Review.Infrastructure.AssemblyInfoInputs.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\obj\Debug\net6.0\Review.Infrastructure.AssemblyInfo.cs
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\obj\Debug\net6.0\Review.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\obj\Debug\net6.0\Review.Infrastructure.csproj.CopyComplete
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\obj\Debug\net6.0\Review.Infrastructure.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\obj\Debug\net6.0\refint\Review.Infrastructure.dll
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\obj\Debug\net6.0\Review.Infrastructure.pdb
+C:\Net Expert\project2022-PieterGeertsPXL\backend-net\ProjectBackend\src\Services\Review\Review.Infrastructure\obj\Debug\net6.0\ref\Review.Infrastructure.dll
