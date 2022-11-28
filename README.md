@@ -14,3 +14,8 @@ Each folder contains its own specific `.gitignore` file.
 ## How to setup and run this application
 
 :heavy_check_mark:_(COMMENT) Add setup instructions and provide some direction to run the whole  application: frontend to backend._
+
+
+CURRENT ISSUES
+migrations to add a brewer are doing something wierd
+OpenId connect doesn't work 
